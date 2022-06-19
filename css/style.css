@@ -11,3 +11,10 @@ h1{
   outline: 5px solid green;
   outline-offset: 30px;
 }
+#lesson118 {
+  background-color: black;
+  width: 50%;
+  color: rgba(0 0 0 0);
+  font-size: 64px;
+  text-shadow: 2px 2px 5px red;
+}
