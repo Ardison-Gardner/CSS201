@@ -4,7 +4,10 @@ h1{
 #lesson117 {
   display: block;
   font-size: 32px;
+  width: 300px;
+  height: 300px;
   border: 5px solid red;
+  margin: 30px;
   outline: 5px solid green;
   outline-offset: 30px;
 }
