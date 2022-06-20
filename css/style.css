@@ -18,3 +18,9 @@ h1{
   font-size: 64px;
   text-shadow: 2px 2px 5px red;
 }
+#lesson119 {
+  display: inline-block;
+  border: 5px solid blue;
+  min-width: 450px;
+  max-width: 500px;
+}
