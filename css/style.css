@@ -31,4 +31,18 @@ h1{
   position: relative;
   top: 30px;
   left: 30px;
+  margin-bottom: 50px;
+}
+#lesson122 {
+  width: 300px;
+  height: 300px;
+  border: 10px solid navy;
+  position: relative;
+}
+#lesson122-2 {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  background: navy;
 }
