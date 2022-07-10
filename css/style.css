@@ -74,3 +74,10 @@ h1{
   border: 5px solid green;
   overflow: scroll;
 }
+#parent > .lesson127 {
+  height: 20px;
+  border: 1px solid blue;
+}
+#parent .lesson127 + .lesson127 {
+  background-color: orange;
+}
