@@ -74,6 +74,7 @@ h1{
   border: 5px solid green;
   overflow: scroll;
 }
+/*Descendent selctor, child selector, adjacent selector. */
 #parent > .lesson127 {
   height: 20px;
   border: 1px solid blue;
