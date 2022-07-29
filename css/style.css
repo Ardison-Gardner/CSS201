@@ -15,6 +15,21 @@ header {
 h1{
   display:inline-block;
 }
+.box129 {
+  height: 20px;
+  border: 1px solid blue;
+  color: white;
+}
+.box129:not(.dontselectme) {
+  background-color: blue;
+}
+.box129:nth-child(5) {
+  background-color: yellow;
+  color: black;
+}
+.box129:hover {
+  background-color: gray;
+}
 #stickyBox {
   position: sticky;
   background-color: #f5f5f5;
