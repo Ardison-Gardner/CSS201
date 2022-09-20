@@ -12,6 +12,24 @@ header {
   position: sticky;
   top: 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+a::before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: yellow;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+a:hover::before {
+  height: 14px;
+}
 h1{
   display:inline-block;
 }
@@ -92,8 +110,32 @@ h1{
 #lesson131 {
   width: 300px;
   height: 300px;
-  border: 5px solid black;
+  border: 10px solid black;
   margin: 50px auto;
+  position: relative;
+  background-color: black;
+}
+#lesson131::before {
+  content: ' ';
+  display: block;
+  border: 10px solid red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+}
+#lesson131::after {
+  content: ' ';
+  display: block;
+  border: 10px solid blue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  z-index: 1;
 }
 
 /*Descendent selctor, child selector, adjacent selector. */
