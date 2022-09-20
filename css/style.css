@@ -149,6 +149,21 @@ h1{
 #lesson132-133::first-line {
   font-weight: bold;
 }
+#button-134 {
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 15px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  transition: background-color 1.2s, color 0.5s, padding 1s;
+}
+#button-134:hover {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
 
 /*Descendent selctor, child selector, adjacent selector. */
 #parent > .lesson127 {
