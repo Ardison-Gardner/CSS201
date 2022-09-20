@@ -33,6 +33,10 @@ a:hover::before {
 h1{
   display:inline-block;
 }
+::selection {
+  background-color: blue;
+  color: orange;
+}
 .box129 {
   height: 20px;
   border: 1px solid blue;
@@ -137,12 +141,12 @@ h1{
   right: -30px;
   z-index: 1;
 }
-#lesson132::first-letter {
+#lesson132-133::first-letter {
   font-size: 50px;
   float: left;
   margin: 10px;
 }
-#lesson132::first-line {
+#lesson132-133::first-line {
   font-weight: bold;
 }
 
