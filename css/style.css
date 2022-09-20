@@ -137,6 +137,14 @@ h1{
   right: -30px;
   z-index: 1;
 }
+#lesson132::first-letter {
+  font-size: 50px;
+  float: left;
+  margin: 10px;
+}
+#lesson132::first-line {
+  font-weight: bold;
+}
 
 /*Descendent selctor, child selector, adjacent selector. */
 #parent > .lesson127 {
