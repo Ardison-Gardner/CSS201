@@ -186,6 +186,17 @@ h1{
   text-align: center;
   line-height: 300px;
 }
+#lesson138 {
+  height: 300px;
+  width: 300px;
+  border: 10px solid black;
+  margin: 50px auto;
+  /*transform: translate(25px, 25x);*/
+  transform: scale(1.1);
+  transform: skew(20deg, 20deg);
+  rotate: 245deg;
+
+}
 /*Descendent selctor, child selector, adjacent selector. */
 #parent > .lesson127 {
   height: 20px;
