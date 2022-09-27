@@ -12,6 +12,7 @@ header {
   padding: 30px;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 a {
   text-decoration: none;
@@ -195,7 +196,51 @@ h1{
   transform: scale(1.1);
   transform: skew(20deg, 20deg);
   rotate: 245deg;
-
+}
+#lesson139 {
+  margin: 150px 0px 0px 450px;
+  height: 100px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: slideMe;
+  animation-duration: 5s;
+  animation-iteration-count: calc(3);
+  /*animation-direction: normal;*/
+}
+@keyframes slideMe {
+  /*
+  from {
+    top:0;
+    left:0;
+  }
+  to {
+    left: 100%
+  }
+  */
+  0% {
+    background: black;
+    top: 0;
+    left:0;
+  }
+  25% {
+    background: blue;
+    top: 0;
+    left: 500px;
+  }
+  50% {
+    background: orange;
+    top: 500px;
+    left: 500px;
+  }
+  75% {
+    background: white;
+    top: 500px;
+    left: 0%;
+  }
 }
 /*Descendent selctor, child selector, adjacent selector. */
 #parent > .lesson127 {
