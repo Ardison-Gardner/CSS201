@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .navigation {
+      flex-basis: 20%;
+      flex-grow: 0;
+      flex-shrink: 1;
+      border-right: 2px solid black;
+      padding-right: 5px;
+    }
+    .content {
+      flex-basis: 80%;
+      flex-grow: 1;
+      flex-shrink: 0;
+      padding-left: 5px;
+    }
+    .header {
+      flex-basis: 100%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      background-color: #f5f5f5;
+      color: #000;
+      padding: 20px;
+      border-bottom: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="header">HEADER</div>
+    <div class="navigation">NAVIGATION</div>
+    <div class="content">
+      <h2>HELLO, WORLD!</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, officiis incidunt aliquam minus porro non id qui nihil iusto. Praesentium, odit fugit est deleniti quidem debitis quia alias tenetur velit?</p>
+
+      <h3>Hello, world, again!</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum neque corporis consequuntur voluptates totam sed amet doloribus consequatur perferendis. Ut illum dolor perspiciatis at ratione minus consectetur. Exercitationem, quas mollitia.</p>
+    </div>
+  </div>
+</body>
+</html>
